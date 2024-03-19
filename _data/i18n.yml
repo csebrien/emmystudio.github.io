@@ -1,0 +1,113 @@
+home:
+  fr:
+    path: /
+  en:
+    path: /
+events:
+  fr:
+    path: evenements
+  en:
+    path: events
+work:
+  fr:
+    path: nos_prestations
+  en:
+    path: work
+contact:
+  fr:
+    path: contactez_nous
+  en:
+    path: contact_us
+
+
+
+header:
+  en:
+    home: Home
+    services: Services
+    portfolio: Portfolio
+    inspirations: Inspirations
+    contact: Contact
+  fr:
+    home: Accueil
+    services: Prestations
+    portfolio: Réalisations
+    inspirations: Inspirations
+    contact: Contact
+
+home:
+  en:
+    path: index.html
+  fr:
+    path: index.html
+
+services:
+  en:
+    path: nos_prestations
+  fr:
+    path: nos_prestations
+
+portfolio:
+  en:
+    path: nos_dernieres_realisations
+  fr:
+    path: nos_dernieres_realisations
+
+inspirations:
+  en:
+    path: nos_inspirations
+  fr:
+    path: nos_inspirations
+
+contact:
+  en:
+    path: contactez_nous
+  fr:
+    path: contactez_nous
+    subtitle: Contactez-nous
+    subtitle2: et soumettez nous votre projet
+    question: Des questions ou suggestions. Ecrivez nous et nous vous recontacterons!
+    subtitle3: Contactez-nous
+    address: 12 avenue Andrée 94100 Saint-Maur-Des-Fossés
+    work_time: Lundi au vendredi, de 9h à 18h
+    phone: +33 6 63271829
+    email: contact@cs-interieurs.com
+    name: Nom
+    from_city: De quelle ville venez vous?
+    dest_email: E-mail
+    dest_phone: Téléphone
+    message: Message
+    email_subject: Nouveau message du site cs-interieurs!
+
+footer:
+  en:
+    contactus: Contact us
+    legal: Legal
+    cgv : Conditions générales de vente
+  fr:
+    contactus: Contactez-nous
+    legal: Mentions Légales
+    cgv : Conditions générales de vente
+
+
+error:
+  en:
+    title: Une erreur est survenue
+    subtitle: Vous pouvez revenir à la page d'accueil en cliquant sur le bouton ci-dessous
+    button: Revenir à l'accueil
+  fr:
+    title: Une erreur est survenue
+    subtitle: Vous pouvez revenir à la page d'accueil en cliquant sur le bouton ci-dessous
+    button: Revenir à l'accueil
+
+legal:
+  en:
+    path: mentions_legales
+  fr:
+    path: mentions_legales
+
+cgv:
+  en:
+    path: conditions_generales_vente
+  fr:
+    path: conditions_generales_vente

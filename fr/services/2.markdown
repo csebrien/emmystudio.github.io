@@ -1,0 +1,65 @@
+--- 
+layout: null 
+code: amenagement_et_decoration_d_interieur 
+title: "Aménagement et décoration d'intérieur" 
+permalink: /fr/amenagement_et_decoration_d_interieur  # change corresponding i18n path variable if permalink changed here! 
+last_modified_at : "2024-02-18"
+---
+<html lang="fr">
+ {% include head.markdown %} 
+ <body>
+ {% include page-loading.markdown %}
+<div class="wrapper">
+  <header class="header-bg">
+    {% include header.markdown %}
+  </header><!--header end-->
+  <section class="pager-section no-bg style2">
+    <div class="container">
+      <div class="pager-info">
+        <div class="pg-title-head">
+          <h2 class="m-0">{{ site.data.i18n.services[page.lang].benefit2_title }}</h2>
+        </div>
+      </div>
+      <div class="pger-imgs no-seduo w-auto">
+        <div class="abt-imgz"><img src="/assets/images/images_prestations_570x465_2_entete.jpg" alt="pager3"></div>
+      </div><!--pger-imgs end-->
+      <div class="clearfix"></div>
+    </div>
+  </section><!--pager-section end-->
+  <section class="page-content pt-0">
+    <div class="container">
+      <div class="blog-single">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="blog-post single">
+              <div class="blog-info">
+                <h2 class="blog-title">{{ site.data.i18n.services[page.lang].benefit2_subtitle }}</h2>
+                <p>{{ site.data.i18n.services[page.lang].benefit2_text1 }}</p>
+                <p style="font-weight:bold;">{{ site.data.i18n.services[page.lang].benefit2_text2 }}</p>
+                <p>{{ site.data.i18n.services[page.lang].benefit2_text3 }}</p>
+                <p style="font-weight:bold;">{{ site.data.i18n.services[page.lang].benefit2_text4 }}</p>
+                <p>{{ site.data.i18n.services[page.lang].benefit2_text5 }}</p>
+                <p style="font-weight:bold;">{{ site.data.i18n.services[page.lang].benefit2_text5b }}</p>
+                <p>{{ site.data.i18n.services[page.lang].benefit2_text5t }}</p>
+                <p>{{ site.data.i18n.services[page.lang].benefit2_text6 }}</p>
+                <img src="/assets/images/images_prestations_570x465_2_details.jpg" alt="871x376" class="w-100">
+                <p><b>{{ site.data.i18n.services[page.lang].benefit2_text7 }}</b></p>
+                <p>{{ site.data.i18n.services[page.lang].benefit2_text8 }}</p>
+                <p id="current-date">Jul 21, 2020</p>
+              </div>
+              
+            </div><!--blog-post single end-->
+          </div>
+        </div>
+      </div><!--blog-single end-->
+    </div>
+  </section><!--page-content end-->
+  <footer>
+    {% include footer.markdown %}
+  </footer><!--footer end-->
+</div><!--wrapper end-->
+{% include scripts.markdown %}
+
+</body>
+
+</html>

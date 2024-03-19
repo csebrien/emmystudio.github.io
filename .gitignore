@@ -1,0 +1,12 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+assets/images/photos-libres/*
+assets/images/images réalisations/*
+assets/images/old/*
+old/*
+todo.txt
+start-server.bat
+Gemfile.lock

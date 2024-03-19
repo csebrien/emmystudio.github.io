@@ -1,0 +1,10 @@
+---
+layout: null
+code: home
+permalink: /fr/nogentsurmarne/index.html # change corresponding i18n path variable if permalink changed here!
+title: Emmy Studio, Design floral, décoration et évènements à Nogent-sur-Marne
+town: Nogent-sur-Marne
+last_modified_at : "now"
+---
+{% include home.markdown %}
+
