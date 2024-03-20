@@ -33,14 +33,13 @@ last_modified_at : "2024-02-18"
             <div class="col-xl-5 col-md-6"><img src="{{ site.baseurl }}/assets/images/contacts-01-570x670.jpg" alt="" width="570" height="670"/>
             </div>
             <div class="col-xl-5 col-md-6">
-              <h2>Restons en contact</h2>
               <p>Nos equipes s'efforceront de prendre en contact avec vous rapidement.</p>
               <!--RD Mailform-->
               <form class="rd-form rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="https://formspree.io/f/xnqebadz" id="contact-form">
-			 	<input type="text" name="_gotcha" style="display:none" />
-				<input name="subject" value="Nouveau message du site emmystudio!" style="display:none"/>
-				<input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
-				<div class="response"></div>
+                <input type="text" name="_gotcha" style="display:none" />
+                <input name="subject" value="Nouveau message du site emmystudio!" style="display:none"/>
+                <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
+                <div class="response"></div>
                 <div class="form-wrap">
                   <input class="form-input" id="contact-form-name" type="text" name="name" data-constraints="@Required">
                   <label class="form-label" for="contact-form-name">Nom</label>
@@ -58,6 +57,7 @@ last_modified_at : "2024-02-18"
                   <textarea class="form-input" id="contact-form-message" name="message" data-constraints="@Required"></textarea>
                 </div>
                 <button class="btn" type="submit">Envoyer</button>
+                 <p id="my-form-status" style="color:blue;"></p>
               </form>
 
             </div>
@@ -98,6 +98,39 @@ last_modified_at : "2024-02-18"
 			document.getElementById('g-recaptcha-response').value = token;
 		});
 	});
+</script>
+
+<script>
+    var form = document.getElementById("contact-form");
+    
+    async function handleSubmit(event) {
+      event.preventDefault();
+      var status = document.getElementById("my-form-status");
+      var data = new FormData(event.target);
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+      }).then(response => {
+        if (response.ok) {
+          status.innerHTML = "Votre message a été envoyé, notre équipe prendra contact avec vous dans les plus brefs délais";
+          form.reset()
+        } else {
+          response.json().then(data => {
+            if (Object.hasOwn(data, 'errors')) {
+              status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+            } else {
+              status.innerHTML = "Une erreur est survenue lors de l'envoi de votre message"
+            }
+          })
+        }
+      }).catch(error => {
+        status.innerHTML = "Une erreur est survenue lors de l'envoi de votre message"
+      });
+    }
+    form.addEventListener("submit", handleSubmit)
 </script>
 
 </body>
