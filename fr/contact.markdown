@@ -122,12 +122,12 @@ last_modified_at : "2024-02-18"
             if (Object.hasOwn(data, 'errors')) {
               status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
             } else {
-              status.innerHTML = "Une erreur est survenue lors de l'envoi de votre message"
+              status.innerHTML = "Une erreur est survenue lors de l'envoi de votre message. Vous pouvez nous ecrire directement par email à contact@emmystudio.com"
             }
           })
         }
       }).catch(error => {
-        status.innerHTML = "Une erreur est survenue lors de l'envoi de votre message"
+        status.innerHTML = "Une erreur est survenue lors de l'envoi de votre message. Vous pouvez nous ecrire directement par email à contact@emmystudio.com"
       });
     }
     form.addEventListener("submit", handleSubmit)
