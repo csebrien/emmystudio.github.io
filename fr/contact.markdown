@@ -75,7 +75,7 @@ last_modified_at : "2024-02-18"
               <p><a href="mailto:contact@emmystudio.com">contact@emmystudio.com</a></p>
               <ul class="footer-list">
                 <li class="footer-list-item"><a rel='nofollow' target="_blank" href="https://www.instagram.com/emmy_studio_floral_design"><img src="{{ site.baseurl }}/assets/images/instagram.png" width="45"  style='border-width:0px;' /></a></li>
-				        <li class="footer-list-item"><a rel='nofollow' target="_blank" href='https://www.mariages.net' title='Mariages.net'><img alt='Mariages.net' src='https://www.mariages.net/images/sellos/label-partenaire--pp342822.png' style='border-width:0px;' /></a></li>
+				        <li class="footer-list-item"><a rel='nofollow' target="_blank" href='https://www.mariages.net/fleurs-mariage/emmy-studio--e342822' title='Mariages.net'><img alt='Mariages.net' src='https://www.mariages.net/images/sellos/label-partenaire--pp342822.png' style='border-width:0px;' /></a></li>
               </ul>
               <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>.&nbsp;</span><span>Tous droits réservés.&nbsp;</span>
               <a href="{{ site.baseurl }}/{{ page.lang }}/{{ site.data.i18n.legal[page.lang].path }}">{{ site.data.i18n.footer[page.lang].legal }}</a>
