@@ -92,7 +92,7 @@ last_modified_at : "2024-02-18"
 <ol start="2">
 <li><strong> Modalit&eacute;s de paiement applicables pour les ventes de Produits ou Prestations dans le cadre d&rsquo;&eacute;v&egrave;nements priv&eacute;s ou professionnels, incluant les mariages</strong></li>
 </ol>
-<p>Le prix de vente est payable &agrave; EMMY STUDIO de la mani&egrave;re suivante :<br /> &ndash; acompte de 30% TTC, &agrave; r&eacute;gler &agrave; la signature du Devis,<br /> &ndash; le solde du prix TTC convenu, &agrave; r&eacute;gler au plus tard dans un d&eacute;lai de sept (7) jours ouvr&eacute;s pr&eacute;c&eacute;dant le jour de l&rsquo;&eacute;v&eacute;nement.</p>
+<p>Le prix de vente est payable &agrave; EMMY STUDIO de la mani&egrave;re suivante :<br /> &ndash; acompte de 50% TTC, &agrave; r&eacute;gler &agrave; la signature du Devis,<br /> &ndash; le solde du prix TTC convenu, &agrave; r&eacute;gler au plus tard dans un d&eacute;lai de trois (3) jours ouvr&eacute;s avant le jour de l&rsquo;&eacute;v&eacute;nement.</p>
 <p>Le prix de la mise en place des Produits ou de la r&eacute;alisation des Prestations au jour de l&rsquo;&eacute;v&eacute;nement sur le lieu de r&eacute;ception peut diff&eacute;rer du prix convenu au Devis initial sign&eacute;, dans le cas o&ugrave; le client solliciterait des ajustements sur les quantit&eacute;s souhait&eacute;es ou sur les cat&eacute;gories de Produits.</p>
 <p>Les autres modalit&eacute;s de paiement, non contraires au pr&eacute;sent article, mentionn&eacute;es &agrave; l&rsquo;article VII. 2., sont pleinement applicables dans le cadre des Prestations accomplies pour les &eacute;v&eacute;nements priv&eacute;s ou professionnels.</p>
 <ol start="3">
