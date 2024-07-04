@@ -56,9 +56,9 @@ last_modified_at : "2024-02-18"
 
 <h4> I.5 – Conception et réalisation</h4>
 
-<p>Design et conception graphique : Emmy Studio, Saint-Maur-des-Fossés (94) – https://cs-interieurs.com</p>
+<p>Design et conception graphique : Emmy Studio, Saint-Maur-des-Fossés (94) – https://emmystudio.com</p>
 
-<p>Réalisation : Emmy Studio, Saint-Maur-des-Fossés (94) – https://cs-interieurs.com</p>
+<p>Réalisation : Emmy Studio, Saint-Maur-des-Fossés (94) – https://emmystudio.com</p>
 
 <h3> II – ACCEPTATION DES CONDITIONS GÉNÉRALES D’UTILISATION</h3>
 
@@ -92,7 +92,7 @@ last_modified_at : "2024-02-18"
 
 <p>Conformément aux dispositions de la loi du 6 janvier 1978, vous êtes en droit d’exercer vos droits d’accès et de demande de rectification ou d’opposition ou de suppression des données que vous avez renseignées.</p>
 
-<p>Ces droits peuvent être exercés auprès du webmaster du site web de Emmy Studio : webmaster @ Emmy Studio . fr (sans espaces)</p>
+<p>Ces droits peuvent être exercés auprès du webmaster du site web de Emmy Studio : contact @ Emmy Studio . com (sans espaces)</p>
 
 <h4> IV.4 Durée de conservation des données personnelles</h4>
 
