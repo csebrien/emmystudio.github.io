@@ -23,6 +23,8 @@
                       </li-->
                       <li class="rd-nav-item {% if page.code == "services" %}active{% endif %}"><a class="rd-nav-link" href="{{ site.baseurl }}/{{ page.lang }}/{{ site.data.i18n.work[page.lang].path }}">Prestations</a>
                       </li>
+                      <li class="rd-nav-item {% if page.code == "photos" %}active{% endif %}"><a class="rd-nav-link" href="{{ site.baseurl }}/{{ page.lang }}/{{ site.data.i18n.photos[page.lang].path }}">Photos</a>
+                      </li>
                       <li class="rd-nav-item {% if page.code == "contact" %}active{% endif %}"><a class="rd-nav-link" href="{{ site.baseurl }}/{{ page.lang }}/{{ site.data.i18n.contact[page.lang].path }}">Contact</a>
                       </li>
                     </ul>

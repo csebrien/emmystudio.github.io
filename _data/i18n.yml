@@ -8,6 +8,11 @@ events:
     path: evenements
   en:
     path: events
+photos:
+  fr:
+    path: photos
+  en:
+    path: photos
 work:
   fr:
     path: nos_prestations
