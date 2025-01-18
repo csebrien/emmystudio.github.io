@@ -3,11 +3,15 @@ layout: null
 code: contact
 title: "Contactez-nous"
 permalink: /fr/contactez_nous # change corresponding i18n path variable if permalink changed here!
-last_modified_at : "2024-02-18"
+last_modified_at: "2025-01-18"
 ---
+
 {::nomarkdown}
+
 <!DOCTYPE html>
+
 {:/nomarkdown}
+
 <html class="wide wow-animation" lang="fr">
 {% include head.markdown %}
 
@@ -15,11 +19,11 @@ last_modified_at : "2024-02-18"
 	
 	{% include page-loading.markdown %}
 
-	<div class="page">
-			
-		<header class="section page-header">
-			{% include header.markdown %}
-		</header><!--header end-->
+    <div class="page">
+
+    	<header class="section page-header">
+    		{% include header.markdown %}
+    	</header><!--header end-->
 
       <section class="section section-lg bg-default">
         <div class="container">
@@ -65,7 +69,7 @@ last_modified_at : "2024-02-18"
         </div>
       </section>
 
-	 <footer class="section footer-great bg-default">
+     <footer class="section footer-great bg-default">
         <div class="container">
           <div class="row row-40 justify-content-center">
             <div class="col-xl-5 col-sm-6">
@@ -74,8 +78,8 @@ last_modified_at : "2024-02-18"
               <p><a href="#">12 avenue Andrée 94100 Saint-Maur-Des-Fossés</a></p>
               <p><a href="mailto:contact@emmystudio.com">contact@emmystudio.com</a></p>
               <ul class="footer-list">
-                <li class="footer-list-item"><a rel='nofollow' target="_blank" href="https://www.instagram.com/emmy_studio_floral_design"><img src="{{ site.baseurl }}/assets/images/instagram.png" width="45"  style='border-width:0px;' /></a></li>
-				        <li class="footer-list-item"><a rel='nofollow' target="_blank" href='https://www.mariages.net/fleurs-mariage/emmy-studio--e342822' title='Mariages.net'><img alt='Mariages.net' src='https://www.mariages.net/images/sellos/label-partenaire--pp342822.png' style='border-width:0px;' /></a></li>
+                <li class="footer-list-item"><a rel='nofollow' target="_blank" href="https://www.instagram.com/emmystudiodesignfloral"><img src="{{ site.baseurl }}/assets/images/instagram.png" width="45"  style='border-width:0px;' /></a></li>
+    			        <li class="footer-list-item"><a rel='nofollow' target="_blank" href='https://www.mariages.net/fleurs-mariage/emmy-studio--e342822' title='Mariages.net'><img alt='Mariages.net' src='https://www.mariages.net/images/sellos/label-partenaire--pp342822.png' style='border-width:0px;' /></a></li>
               </ul>
               <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>.&nbsp;</span><span>Tous droits réservés.&nbsp;</span>
               <a href="{{ site.baseurl }}/{{ page.lang }}/{{ site.data.i18n.legal[page.lang].path }}">{{ site.data.i18n.footer[page.lang].legal }}</a>
@@ -87,10 +91,12 @@ last_modified_at : "2024-02-18"
         </div>
       </footer>
 
-	</div><!--wrapper end-->
+    </div><!--wrapper end-->
 
-	<div class="snackbars" id="form-output-global"></div>
+    <div class="snackbars" id="form-output-global"></div>
+
 {% include scripts.markdown %}
+
 <script src="https://www.google.com/recaptcha/api.js?render=6LdC5FcjAAAAABzm0IjJdAbPZfKkwHi0e6FzgtDT"></script>
 <script>
 	grecaptcha.ready(function () {
